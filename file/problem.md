@@ -3,7 +3,7 @@
 1. 寫個字串連接，並讓使用者輸入兩個字串，輸出字串連接結果。<br/>
 ![problem011](./image/problem011.png)
 <div align=center><img src="./image/problem011.png" width = "300" alt="problem011"/></div>
-<div align=center><img src="./image/problem011.png" width = "60%" alt="problem011"/></div>
+<div align=center><img src="./image/problem011.png" width = "60vw" alt="problem011"/></div>
 2. 產生字三角形(1)由小到大；(2)由大到小；(3)由使用者輸入數字<br/>
 ![problem021](./image/problem021.png)
 ![problem022](./image/problem022.png)
