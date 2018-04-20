@@ -16,3 +16,9 @@
 6. 輸入一個整數num，while迴圈判斷累加到多少會超過num。<br/>
 (ex:num=4  1+2+3=6  6超過num)<br/>
 <img src="./image/problem061.png" width = "80%" alt="problem061"/>
+7. 判斷是不是閏年。是的話輸出”閏年”；不是的話輸出”平年”。<br/>
+(提示:西元年被4整除且不被100整除，或被400整除者即為閏年)<br/>
+<img src="./image/problem071.png" width = "80%" alt="problem071"/>
+8、使用for迴圈顯示出99乘法表。<br/>
+(提示:可以用format 格式化函數美化)<br/>
+<img src="./image/problem081.png" width = "80%" alt="problem081"/>
