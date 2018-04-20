@@ -23,6 +23,18 @@ print(x[1:5])   #[2, 3, 4, 5]
 print(x[0:-1])  #[1, 2, 3, 4, 5]
 print(x[-1:-1]) #[]
 ```
+動態增加元素:
+* ```list.append(x)```: 把變數x塞到list的最後面
+* ```list.insert(i, x)```: 把變數x塞到i這個位置上
+* ```list.pop()```: 把list的最後一格丟掉
+* ```list.pop(i)```: 把list的第i格丟掉
+* ```list.remove(x)```: 會把第一個出現的變數x拿掉
+* ```list.clear()```: 把list內的資料全部清光光
+
+與常見函數的結合:
+* ```max(list)```: 找出list中最大值
+* ```min(list)```: 找出list中最小值
+* ```sum(list)```: 找出list數字總和
 
 #### 元組（Tuple）
 Tuple 類似於 List，比較大差別在於宣告後不能修改。<br/>
@@ -41,6 +53,21 @@ print(dict1['Mark'])
 print(dict1.keys())     # 所有鍵值組成的 list
 print(dict1.values())   # 所有值組成的 list
 print(dict1.items())    # 所有鍵值組成的 tuple of list
+```
+* ```dict={}```: 建立空的dict
+* ```del dict[key]```: 刪除特定的key-value pari
+* ```dict[key]=value```: 如果key不存在，會增加這組K-V；如果key已存在，會更新這組K-V
+
+取出字典資料作法有兩種：
+* ```dict[key]```: 這個做法相對不安全，key如果不存在的話就會出現KeyError。
+* ```dict.get(key, default_value)```: 是比較安全的作法，如果key不存在的話就會回傳 default_value。
+```python
+dict1 = { 'Mark': 70, 'Jack': 40 }
+
+print(dict1.get('Andy', "找不到"))
+# 找不到
+print(dict['Andy'])
+#　TypeError: 'type' object is not subscriptable
 ```
 
 #### 集合（Set）
