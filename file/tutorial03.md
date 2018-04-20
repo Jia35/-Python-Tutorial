@@ -1,3 +1,8 @@
+# Python程式教學03
+
+[[回首頁]](../README.md)<br/>
+
+----
 #### 數字（Number）
 #### 字串（String）
 #### 布林值（Boolean）
@@ -45,8 +50,8 @@ set1 = {'apple', 'orange', 'apple', 'banana'}
 print(set1)
 # {'orange', 'banana', 'apple'}
 ```
-
 <br/>
+
 ### 函式（function）
 函式是重複使用的程式區塊，有輸入輸出。在 Python 中我們會使用 def 來定義函式：
 ```python
@@ -56,7 +61,7 @@ def sum(x, y):
 num = sum(1, 3)
 print(num)      #4
 ```
-
 <br/>
+
 ### File(文件)
 <br/>
