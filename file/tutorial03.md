@@ -7,9 +7,9 @@
 為了輸出更加美觀，我們可以用format來把字串格式化。<br/>
 ```python
 "{} {}".format("hello", "world") # 不設置指定位置，按默認順序
-'hello world'
+# 'hello world'
 "{0} {1}".format("hello", "world") # 設置指定位置
-'hello world'
+# 'hello world'
 ```
 數字格式化<br/>
 
