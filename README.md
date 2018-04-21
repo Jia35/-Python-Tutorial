@@ -10,5 +10,5 @@
 [Python程式測驗](./file/problem.md)<br/>
 <br/>
 ### 附件
-Code
+[Code](./file/code)<br/>
 <br/>
