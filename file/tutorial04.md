@@ -6,13 +6,13 @@
 ### 例外處理
 * 語法錯誤 (syntaxError)<br>
 (if判斷式後面沒有```:```)<br>
-<img src="./image/tutorial04_image01.png"  alt="tutorial04_image01.png" width="60%"/><br>
+<img src="./image/tutorial04_image01.png" alt="tutorial04_image01.png" width="60%"/><br>
 * 沒有命名對象 (NameError)<br>
 (```n```沒有命名)<br>
-<img src="./image/tutorial04_image02.png"  alt="tutorial04_image02.png" width="70%"/><br>
+<img src="./image/tutorial04_image02.png" alt="tutorial04_image02.png" width="70%"/><br>
 * 除零錯誤 (ZeroDivisionError)<br>
 除數不可為0<br>
-<img src="./image/tutorial04_image03.png"  alt="tutorial04_image03.png" width="60%"/><br>
+<img src="./image/tutorial04_image03.png" alt="tutorial04_image03.png" width="60%"/><br>
 * ...<br>
 <br>
 
