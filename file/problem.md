@@ -29,4 +29,5 @@
 (鉛筆數量一定等於班上的人數)使用者輸入班級人數。<br/>
 <img src="./image/problem101.png" width = "80%" alt="problem101"/>
 11. 輸入三筆數字，如果可以排成三角形輸出’O’，否則輸出’X’。<br/>
+(如需排序可用```list.sort()```)<br/>
 <img src="./image/problem111.png" width = "80%" alt="problem111"/>
