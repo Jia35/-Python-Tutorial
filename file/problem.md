@@ -25,3 +25,8 @@
 9. 使用for迴圈顯示出99乘法表。<br/>
 (提示:可以用format 格式化函數美化)<br/>
 <img src="./image/problem091.png" width = "80%" alt="problem091"/>
+10. 鉛筆一支 5 元，一打 50 元。小明需要幫班上每位同學買一枝鉛筆，請問要多少錢？<br/>
+(鉛筆數量一定等於班上的人數)使用者輸入班級人數。<br/>
+<img src="./image/problem101.png" width = "80%" alt="problem101"/>
+11. 輸入三筆數字，如果可以排成三角形輸出’O’，否則輸出’X’。<br/>
+<img src="./image/problem111.png" width = "80%" alt="problem111"/>
