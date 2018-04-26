@@ -111,9 +111,3 @@ num = sum(1, 3)
 print(num)      #4
 ```
 <br/>
-
-### 例外處理 try-except
-<br/>
-
-### File(文件)
-<br/>
