@@ -1,5 +1,8 @@
 ## Python 題目測試~
-[[回首頁]](../README.md)<br/><br/>
+
+[[回首頁]](../README.md)<br/>
+
+----
 1. 寫個字串連接，並讓使用者輸入兩個字串，輸出字串連接結果。<br/>
 <img src="./image/problem011.png" width = "80%" alt="problem011"/>
 2. 產生字三角形(1)由小到大；(2)由大到小；(3)由使用者輸入數字<br/>
@@ -28,6 +31,9 @@
 10. 鉛筆一支 5 元，一打 50 元。小明需要幫班上每位同學買一枝鉛筆，請問要多少錢？<br/>
 (鉛筆數量一定等於班上的人數)使用者輸入班級人數。<br/>
 <img src="./image/problem101.png" width = "80%" alt="problem101"/>
-11. 輸入三筆數字，如果可以排成三角形輸出’O’，否則輸出’X’。<br/>
-(如需排序可用list.sort())<br/>
+11. 使用者可一直輸入數字，直到輸入0則停止輸入，並輸出排序後的結果。<br/>
+(提示:排序可用list.sort())<br/>
 <img src="./image/problem111.png" width = "80%" alt="problem111"/>
+12. 輸入三筆數字，如果可以排成三角形輸出’O’，否則輸出’X’。<br/>
+(如需排序可用list.sort())<br/>
+<img src="./image/problem121.png" width = "80%" alt="problem121"/>
