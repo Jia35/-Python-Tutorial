@@ -52,6 +52,7 @@ print(x[-1:-1]) #[]
 * ```list.pop(i)```: 把list的第i格丟掉
 * ```list.remove(x)```: 會把第一個出現的變數x拿掉
 * ```list.clear()```: 把list內的資料全部清光光
+* ```list.sort()```: 把list內的資料由小到大排列
 
 與常見函數的結合:
 * ```max(list)```: 找出list中最大值
