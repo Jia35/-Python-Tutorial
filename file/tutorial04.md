@@ -56,7 +56,7 @@ for i in range(1,11):
 ### 例外處理
 * 語法錯誤 (syntaxError)<br>
 (if判斷式後面沒有```:```)<br>
-<img src="./image/tutorial04_image02.png" alt="tutorial04_image02.png" width="60%"/><br>
+<img src="./image/tutorial04_image02.png" alt="tutorial04_image02.png" width="40%"/><br>
 * 沒有命名對象 (NameError)<br>
 (```n```沒有命名)<br>
 <img src="./image/tutorial04_image03.png" alt="tutorial04_image03.png" width="70%"/><br>
