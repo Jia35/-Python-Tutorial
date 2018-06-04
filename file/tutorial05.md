@@ -1,3 +1,7 @@
-內建函數https://pydoing.blogspot.tw/2011/02/python-builtinifunction.html
+# Python程式教學04
+
+[[回首頁]](../README.md)<br/>
+
+----
 模組 from 陳述
 畫圖
