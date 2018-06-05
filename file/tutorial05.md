@@ -37,7 +37,7 @@
 f = open('123.txt', 'r+')
 print(f.read())
 
-f.write("string")
+f.write("測試")
 
 f.close()
 ```
@@ -78,11 +78,62 @@ print(time())
 | 7    | tm_yday  | 一年的第幾日 | 1 到 366(儒略歷)                  |
 | 8    | tm_isdst | 夏令時       | -1, 0, 1 是決定是否為夏令時的旗幟 |
 
-asctime()
-http://www.runoob.com/python/python-date-time.html
+格式化日期時間<br/>
+```python time.asctime()```<br/>
+```python time.strftime()```<br/>
+```python
+import time
 
+t = time.localtime()
+print(t)
+#time.struct_time(tm_year=2018, tm_mon=6, tm_mday=5, tm_hour=20, tm_min=50, tm_sec=19, tm_wday=1, tm_yday=156, tm_isdst=0)
 
+t = time.asctime(time.localtime())
+print(t)
+#Tue Jun  5 20:50:19 2018
 
+t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+print(t)
+#2018-06-05 20:50:19
+```
+
+python中時間日期格式化符號：<br/>
+| 符號 | 代表                                      |
+| ---- | ----------------------------------------- |
+| %y   | 兩位數的年份表示（00-99）                 |
+| %Y   | 四位數的年份表示（000-9999                |
+| %m   | 月份（01-12）                             |
+| %d   | 月內中的一天（0-31）                      |
+| %H   | 24小時制小時數（0-23）                    |
+| %I   | 12小時制小時數（01-12）                   |
+| %M   | 分鐘數（00=59）                           |
+| %S   | 秒（00-59）                               |
+| %a   | 本地簡化星期名稱                          |
+| %A   | 本地完整星期名稱                          |
+| %b   | 本地簡化的月份名稱                        |
+| %B   | 本地完整的月份名稱                        |
+| %c   | 本地相應的日期表示和時間表示              |
+| %j   | 年內的一天（001-366）                     |
+| %p   | 本地AM或PM的等價符                        |
+| %U   | 一年中的星期數（00-53）星期天為星期的開始 |
+| %w   | 星期（0-6），星期天為星期的開始           |
+| %W   | 一年中的星期數（00-53）星期一為星期的開始 |
+| %x   | 本地相應的日期表示                        |
+| %X   | 本地相應的時間表示                        |
+| %Z   | 當前時區的名稱                            |
+
+<br/>
+
+#### Calendar 日曆
+```python
+import calendar
+
+cal = calendar.month(2018, 6)
+print("以下輸出2018年6月份的日曆:")
+print(cal)
+```
+<img src="./image/tutorial05_image03.png"  alt="tutorial05_image03.png" width="80%"/><br>
+<br/>
 
 ### 視窗
 Tkinter是使用Python進行窗口視窗設計的模組，Python自帶的可編輯的GUI界面<br/>

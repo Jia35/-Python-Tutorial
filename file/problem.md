@@ -69,14 +69,7 @@ Fibonacci = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233……<br/>
 顯示前10個斐波那契數列<br/>
 <img src="./image/problem162.png" width = "80%" alt="problem162"/><br/>
 
-17. 從鍵盤輸入一個字串，將小寫字母全部轉換成大寫字母，然後輸出到一個“test.txt”中保存。<br/>
-<img src="./image/problem171.png" width = "80%" alt="problem171"/><br/>
-<img src="./image/problem172.png" width = "40%" alt="problem172"/><br/>
-
-18. 有一個"problem.txt"檔案內有一長串亂碼，請從亂碼中找出英文字母，包括大小寫。<br/>
-<img src="./image/problem181.png" width = "80%" alt="problem181"/><br/>
-
-19. ISBN(International Standard Book Number)是一種世界共通的書籍編碼方法，世界上任何一本書籍之出版，皆有著唯一的一組ISBN碼。此碼由十個位數組成，每一位數可以為0~9的任何一個數字，或者為X，代表此位數為10。<br/>
+17. ISBN(International Standard Book Number)是一種世界共通的書籍編碼方法，世界上任何一本書籍之出版，皆有著唯一的一組ISBN碼。此碼由十個位數組成，每一位數可以為0~9的任何一個數字，或者為X，代表此位數為10。<br/>
 試寫出一個程式來判斷所輸入的ISBN碼是否為合法的。<br/>
 其判斷方法如下，首先，將此ISBN碼的十個位數分開，自左而右依次為第一位數，第二位數至第十位數，接著進行第一次的累加，使得第二位數成為第一位數到第二位數的和，第三位數為第一位數到第三位數的累加和，第十位數為第一位數到第十位數的累加和；進行完第一次的累加和後，接著再依照相同之方法進行第二次的累加動作，我們稱此時最後所求得之累加和為此ISBN碼之識別碼，倘若此識別碼為11的倍數，則此ISBN碼為合法的，故請輸出YES，反之請輸出NO。<br/>
 
@@ -87,5 +80,21 @@ Fibonacci = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233……<br/>
 | 第二次累加和 | 0   | 1   | 5   | 10  | 21  | 34  | 56  | 83  | 119 | 165 |
 
 經由計算可得其識別碼為165，乃是11之倍數，故此為一合法之ISBN碼，因此應該要輸出YES於螢幕上。<br/>
+<img src="./image/problem171.png" width = "80%" alt="problem171"/><br/>
+
+18. 從鍵盤輸入一個字串，將小寫字母全部轉換成大寫字母，然後輸出到一個“test.txt”中保存。<br/>
+<img src="./image/problem181.png" width = "80%" alt="problem181"/><br/>
+<img src="./image/problem182.png" width = "40%" alt="problem182"/><br/>
+
+19. 有一個"problem.txt"檔案內有一長串亂碼，請從亂碼中找出英文字母，包括大小寫。<br/>
+<img src="./image/problem191.png" width = "80%" alt="problem191"/><br/>
+
+20. 請寫出一個華氏攝氏轉換器，輸入是一個由小數和字母F或C組成的字串，你需要將輸入轉換到與其對應的另一個溫度單位，並以相同的格式打印轉換值，並可以一直輸入。<br/>
+```
+轉換公式： 
+華氏 = 攝氏*(9/5)+32 
+攝氏 = (華氏-32)*5/9
+```
+<img src="./image/problem201.png" width = "80%" alt="problem201"/><br/>
 
 <br/>

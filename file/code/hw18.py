@@ -1,7 +1,7 @@
-f = open('problem.txt', 'r')
-s = f.read()
+a = input("請輸入:")
+print(a.upper())
+
+f = open('test.txt', 'a')
+f.write(a.upper())
 f.close()
 
-for i in s:
-    if (i>='a' and i<='z') or (i>='A' and i<='Z'):
-        print(i)
