@@ -4,4 +4,3 @@ print(a.upper())
 f = open('test.txt', 'a')
 f.write(a.upper())
 f.close()
-
