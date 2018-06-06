@@ -5,7 +5,7 @@
 ----
 ### File(文件)
 #### 開啟檔案
-```python f = open('檔案', '模式') ```<br/>
+```f = open('檔案', '模式')```<br/>
 
 | 模式 | 意思                                                         |
 | ---- | ------------------------------------------------------------ |
@@ -19,19 +19,19 @@
 <br/>
 
 #### 讀取文件內容
-```python f.read(size) ``` - 讀取size字串長度進來，若不填則讀取整份文件<br/>
-```python f.readline() ``` - 讀取一行,最後面會加上一個 \n<br/>
-```python f.readlines() ``` - 傳回一list ，每一行文字最後面會加上一個 \n 為一個list的資料項<br/>
+``` f.read(size) ``` - 讀取size字串長度進來，若不填則讀取整份文件<br/>
+``` f.readline() ``` - 讀取一行,最後面會加上一個 \n<br/>
+``` f.readlines() ``` - 傳回一list ，每一行文字最後面會加上一個 \n 為一個list的資料項<br/>
 #### 寫入檔案
-```python f.write(string) ``` - 寫入檔案，並回傳寫入的string長度<br/>
+``` f.write(string) ``` - 寫入檔案，並回傳寫入的string長度<br/>
 #### 游標位置
-```python f.seek(位移的bit數) ```<br/>
+``` f.seek(位移的bit數) ```<br/>
 可指定從哪邊開始<br/>
-```python f.seek(位移的bit數,0) ``` - 從文件開頭開始<br/>
-```python f.seek(位移的bit數,1) ``` - 從目前游標位置開始<br/>
-```python f.seek(位移的bit數,2) ``` - 從目前文件結尾開始<br/>
+``` f.seek(位移的bit數,0) ``` - 從文件開頭開始<br/>
+``` f.seek(位移的bit數,1) ``` - 從目前游標位置開始<br/>
+``` f.seek(位移的bit數,2) ``` - 從目前文件結尾開始<br/>
 #### 關閉檔案
-```python f.close() ```<br/>
+``` f.close() ```<br/>
 簡單範例<br/>
 ```python 
 f = open('123.txt', 'r+')
@@ -79,8 +79,8 @@ print(time())
 | 8    | tm_isdst | 夏令時       | -1, 0, 1 是決定是否為夏令時的旗幟 |
 
 格式化日期時間<br/>
-```python time.asctime()```<br/>
-```python time.strftime()```<br/>
+``` time.asctime()```<br/>
+``` time.strftime()```<br/>
 ```python
 import time
 
