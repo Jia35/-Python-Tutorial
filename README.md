@@ -7,6 +7,7 @@
 [Python程式教學03](./file/tutorial03.md)<br/>
 [Python程式教學04](./file/tutorial04.md)<br/>
 [Python程式教學05](./file/tutorial05.md)<br/>
+[Python程式教學06](./file/tutorial06.md)<br/>
 <br/>
 ### Python程式測驗
 [Python程式測驗](./file/problem.md)<br/>
