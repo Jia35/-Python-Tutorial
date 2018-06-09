@@ -76,11 +76,11 @@ blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 ```
 <br>
 原圖<br>
-<img src="./image/tutorial06_image01.png"  alt="tutorial06_image01.png" width="50%"/><br>
+<img src="./image/tutorial06_image01.png"  alt="tutorial06_image01.png" width="40%"/><br>
 直接找邊緣<br>
-<img src="./image/tutorial06_image02.png"  alt="tutorial06_image02.png" width="50%"/><br>
+<img src="./image/tutorial06_image02.png"  alt="tutorial06_image02.png" width="40%"/><br>
 先模糊再找邊緣<br>
-<img src="./image/tutorial06_image03.png"  alt="tutorial06_image03.png" width="50%"/><br>
+<img src="./image/tutorial06_image03.png"  alt="tutorial06_image03.png" width="40%"/><br>
 <br>
 
 
