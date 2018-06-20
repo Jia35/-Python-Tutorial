@@ -102,5 +102,13 @@ Fibonacci = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233……<br/>
 <img src="./image/problem211.png" width = "60%" alt="problem211"/><br/>
 <img src="./image/problem212.png" width = "80%" alt="problem212"/><br/>
 <img src="./image/problem213.png" width = "80%" alt="problem213"/><br/>
- 
+
+22. 走廊上有10個關上的儲物櫃。有個人先是將10個櫃子全都打開。接著，每數兩個櫃子關上一個。然後，在第三輪時，再每隔兩個就切換第三個櫃子的開關狀態（也就是將關上的櫃子打開，將打開的關上）。照此規律反复操作10次，在第i輪，這個人會每數i個就切換第i個櫃子的狀態。<br/>
+當第10輪經過走廊時，只切換第10個櫃子的開關狀態，此時有幾個櫃子是開著的？分別是哪幾個箱子？<br/>
+<img src="./image/problem221.png" width = "60%" alt="problem221"/><br/>
+<img src="./image/problem222.png" width = "80%" alt="problem222"/><br/>
+
+23. 給定一個數組裡面有一串數字，其中有2個數字只出現了1次，剩下的數字出現2次！要求返回只出現1次的數字的和！<br/>
+比如repeats([4,5,7,5,4,8]) = 15，因為7和8數字出現1次，它的和為15<br/>
+<img src="./image/problem231.png" width = "80%" alt="problem231"/><br/>
 <br/>

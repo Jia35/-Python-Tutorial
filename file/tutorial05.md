@@ -136,6 +136,37 @@ print(cal)
 <img src="./image/tutorial05_image03.png"  alt="tutorial05_image03.png" width="80%"/><br>
 <br/>
 
+### 寄送E-mail
+參考：<br/>
+https://amoshyc.github.io/blog/2018/sending-gmail-in-python.html<br/>
+http://www.runoob.com/python/python-email.html<br/>
+
+```python
+import smtplib
+from email.mime.text import MIMEText
+
+gmail_user = 'user@gmail.com'    # your gmail user
+gmail_password = '---'    # your gmail password
+
+msg = MIMEText('Python 郵件發送測試...', 'plain', 'utf-8')
+msg['Subject'] = 'Test'
+msg['From'] = gmail_user
+msg['To'] = 'a919233@yahoo.com.tw'
+
+try:
+    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+    server.ehlo()
+    server.login(gmail_user, gmail_password)
+    server.send_message(msg)
+    server.quit()
+    print("郵件發送成功")
+except:
+    print("Error: 無法發送郵件")
+```
+<br/>
+<br/>
+<br/>
+
 ### 視窗
 Tkinter是使用Python進行窗口視窗設計的模組，Python自帶的可編輯的GUI界面<br/>
 #### 主體框架
