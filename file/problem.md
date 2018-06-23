@@ -3,6 +3,9 @@
 [[回首頁]](../README.md)<br/>
 
 ----
+高中生程式解題系統<br/>
+https://zerojudge.tw/<br/>
+<br/>
 1. 寫個字串連接，並讓使用者輸入兩個字串，輸出字串連接結果。<br/>
 <img src="./image/problem011.png" width = "80%" alt="problem011"/><br/>
 
